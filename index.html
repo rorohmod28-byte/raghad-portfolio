@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الموقع الشخصي لرغد أحمد، متخصصة في نظم المعلومات الحاسوبية.">
+  <meta name="theme-color" content="#7654b4">
+  <title>رغد أحمد | الموقع الشخصي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="العودة للرئيسية"><span class="brand-icon">ر</span> رغد أحمد</a>
+      <nav aria-label="التنقل الرئيسي">
+        <a href="#about">نبذة عني</a>
+        <a href="#skills">مهاراتي</a>
+        <a href="#contact">التواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">أهلاً بك في موقعي الشخصي ✨</span>
+          <h1>مرحباً، أنا <span>رغد أحمد</span></h1>
+          <p class="hero-subtitle">متخصصة في نظم المعلومات الحاسوبية</p>
+          <p class="hero-description">شغوفة بالتقنية والتعلّم المستمر، وأسعى إلى تنمية مهاراتي وتقديم أفكار وحلول رقمية مفيدة.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">تعرّف عليّ <span aria-hidden="true">←</span></a>
+            <a class="button button-outline" href="#contact">تواصل معي</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+          <div class="profile-card"><div class="avatar">ر</div><strong>رغد أحمد</strong><span>نظم معلومات حاسوبية</span><div class="card-decoration"><i></i><i></i><i></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <div class="section-heading"><span class="section-kicker">من أنا؟</span><h2>نبذة <span>عني</span></h2></div>
+        <div class="about-card"><span class="quote-mark" aria-hidden="true">❝</span><p>أنا رغد أحمد، متخصصة في مجال نظم المعلومات الحاسوبية، وأسعى إلى تطوير مهاراتي التقنية والمعرفية في مجال التكنولوجيا ونظم المعلومات. أهتم بالتعلم المستمر، والعمل الجماعي، وإيجاد حلول مبتكرة للمشكلات، وأطمح إلى توظيف معرفتي في تطوير حلول تقنية تسهم في تحسين الأعمال وتسهيل الحياة اليومية.</p></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">ما أتميز به</span><h2>مهاراتي <span>الشخصية</span></h2><p>مهارات أعمل على تنميتها باستمرار في رحلتي الدراسية والمهنية.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon" aria-hidden="true">⌨</span><h3>الحاسب الآلي</h3><p>التعامل مع الحاسب والتقنيات الرقمية.</p></article>
+          <article class="skill-card"><span class="skill-icon" aria-hidden="true">♧</span><h3>العمل الجماعي</h3><p>التعاون مع الآخرين لتحقيق الأهداف.</p></article>
+          <article class="skill-card"><span class="skill-icon" aria-hidden="true">☏</span><h3>التواصل</h3><p>تبادل الأفكار بوضوح واحترام.</p></article>
+          <article class="skill-card"><span class="skill-icon" aria-hidden="true">✦</span><h3>حل المشكلات</h3><p>تحليل التحديات والبحث عن حلول مناسبة.</p></article>
+          <article class="skill-card"><span class="skill-icon" aria-hidden="true">◷</span><h3>إدارة الوقت</h3><p>تنظيم الأولويات وإنجاز المهام بكفاءة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container narrow">
+        <div class="section-heading"><span class="section-kicker">يسعدني التواصل</span><h2>تواصل <span>معي</span></h2></div>
+        <div class="contact-card"><div class="contact-symbol" aria-hidden="true">✉</div><h3>لنكن على تواصل!</h3><p>سيتم إضافة البريد الإلكتروني أو وسيلة التواصل هنا لاحقاً.</p><span class="coming-soon">وسيلة التواصل قريباً</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-wrap"><span>© <span id="year">2026</span> رغد أحمد. جميع الحقوق محفوظة.</span><a href="#home">العودة للأعلى ↑</a></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
